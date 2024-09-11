@@ -1,0 +1,10 @@
+.container {width: 400px;
+    height: 500px;
+    border: 2px solid red;
+    overflow: hidden;
+    border-radius: 5px; cursor: pointer;
+    padding: 0 0 30px 60px;
+
+img {object-fit: cover; transition: 1s ease;}
+
+img:hover {transform: scale(1.4) rotate(25deg);}
